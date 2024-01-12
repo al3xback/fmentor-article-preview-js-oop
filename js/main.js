@@ -49,6 +49,8 @@ class Card extends Component {
 		const cardImageEl = this.createElement('img', null, null, [
 			this.createElementAttribute('src', './images/drawers.jpg'),
 			this.createElementAttribute('alt', ''),
+			createElementAttribute('width', 280),
+			createElementAttribute('height', 278),
 		]);
 
 		cardImageInnerEl.appendChild(cardImageEl);
